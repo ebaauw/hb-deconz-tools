@@ -8,5 +8,6 @@
 'use strict'
 
 const { DeconzTool } = require('../index')
+const pkgJson = require('../package.json')
 
-new DeconzTool().main()
+new DeconzTool(pkgJson).main()
