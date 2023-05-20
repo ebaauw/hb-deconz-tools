@@ -45,15 +45,8 @@ class hbDeconzTools {
     */
   static get WsClient () { return require('./lib/WsClient') }
 
-  /** Command-line tool.
-    * <br>See {@link DeconzTool}.
-    * @type {Class}
-    * @memberof module:hbDeconzTools
-    */
+  // Command-line tool.
   static get DeconzTool () { return require('./lib/DeconzTool') }
-
-  // Command-line tools.
-  static get NbTool () { return require('./lib/NbTool') }
 }
 
 module.exports = hbDeconzTools
