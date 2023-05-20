@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "rescurseDepth": 10,
+  "source": {
+    "include": [
+      "README.md",
+      "index.js",
+      "lib",
+      "cli",
+      "node_modules/hb-lib-tools/lib/HttpClient.js"
+    ]
+  },
+  "opts": {
+    "recurse": true
+  },
+  "templates": {
+    "monospaceLinks": true
+  }
+}

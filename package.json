@@ -1,0 +1,49 @@
+{
+  "name": "hb-deconz-tools",
+  "description": "Homebridge deCONZ Tools",
+  "displayName": "Homebridge deCONZ",
+  "license": "Apache-2.0",
+  "version": "0.0.0",
+  "keywords": [
+    "deconz",
+    "phoscon",
+    "raspbee",
+    "conbee",
+    "dresden-elektronik",
+    "dresdenelektronik"
+  ],
+  "main": "index.js",
+  "bin": {
+    "deconz": "cli/deconz.js"
+  },
+  "engines": {
+    "node": "^18.16.0"
+  },
+  "dependencies": {
+    "hb-lib-tools": "~1.0.9",
+    "ws": "^8.13.0",
+    "xml2js": "~0.5.0"
+  },
+  "scripts": {
+    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/hb-deconz-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/hb-deconz-tools/issues"
+  },
+  "homepage": "https://github.com/ebaauw/hb-deconz-tools#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
+}
