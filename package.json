@@ -3,7 +3,7 @@
   "description": "Homebridge deCONZ Tools",
   "displayName": "Homebridge deCONZ",
   "license": "Apache-2.0",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "deconz",
     "phoscon",
