@@ -18,7 +18,7 @@ Tool      | Description
 
 Each command-line tool takes a `-h` or `--help` argument to provide a brief overview of its functionality and command-line arguments.
 
-See the [`deconz` Tutorial](https://github.com/ebaauw/homebridge-deconz/wiki/%60deconz%60-Tutorial) in the Wiki for more info.
+See the [`deconz` Command-Line Tool](https://github.com/ebaauw/homebridge-deconz/wiki/deconz-Command-Line-Utility) in the Wiki for more info.
 
 
 ### Prerequisites
@@ -33,5 +33,3 @@ provided by its
 [REST API plugin](https://github.com/dresden-elektronik/deconz-rest-plugin).
 These tools run independently from the Phoscon web app, see
 [deCONZ for Dummies](https://github.com/dresden-elektronik/deconz-rest-plugin/wiki/deCONZ-for-Dummies).
-
-### Developer Info
