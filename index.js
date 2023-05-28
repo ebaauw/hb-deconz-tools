@@ -1,7 +1,7 @@
 // hb-deconz-tools/index.js
 //
 // Homebridge deCONZ Tools.
-// Copyright © 202-2023 Erik Baauw. All rights reserved.
+// Copyright © 2022-2023 Erik Baauw. All rights reserved.
 
 'use strict'
 
@@ -17,7 +17,7 @@ class hbDeconzTools {
     */
   static get ApiClient () { return require('./lib/ApiClient') }
 
-  /** Wrapper for for deCONZ gateway REST API error.
+  /** Wrapper for deCONZ gateway REST API error.
     * <br>See {@link ApiError}.
     * @type {Class}
     * @memberof module:hbDeconzTools
