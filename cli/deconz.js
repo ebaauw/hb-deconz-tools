@@ -5,7 +5,6 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2018-2023 Erik Baauw. All rights reserved.
 
-
 'use strict'
 
 const { DeconzTool } = require('../index')
