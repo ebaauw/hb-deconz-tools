@@ -38,6 +38,12 @@ class hbDeconzTools {
     */
   static get Discovery () { return require('./lib/Discovery') }
 
+  /** Zigbee OTAU image.
+    * <br>See {@link OtauImage}.
+    * @type {Class}
+    * @memberof module:hbDeconzTools    */
+  static get OtauImage () { return require('./lib/OtauImage') }
+
   /** Client for deCONZ gateway web socket notifications.
     * <br>See {@link WsClient}.
     * @type {Class}
@@ -45,8 +51,9 @@ class hbDeconzTools {
     */
   static get WsClient () { return require('./lib/WsClient') }
 
-  // Command-line tool.
+  // Command-line tools.
   static get DeconzTool () { return require('./lib/DeconzTool') }
+  static get OtauTool () { return require('./lib/OtauTool') }
 }
 
 module.exports = hbDeconzTools

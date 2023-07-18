@@ -10,16 +10,17 @@
 ## Homebridge deCONZ Tools
 Copyright© 2022-2023 Erik Baauw. All rights reserved.
 
-This repository provides a standalone installation of the command-line tools from [Homebridge deCONZ](https://github.com/ebaauw/homebridge-deconz):
+This repository provides a standalone installation of the command-line utilities from [Homebridge deCONZ](https://github.com/ebaauw/homebridge-deconz):
 
-Tool      | Description
---------- | -----------
-`deconz ` | Interact with deCONZ gateway from command line.
+- `deconz`, to discover, monitor, and interact with deCONZ gateways.  
+See the [`deconz` Command-Line Utility](https://github.com/ebaauw/homebridge-deconz/wiki/deconz-Command%E2%80%90Line-Utility) in the Wiki for more info.
+- `otau`, to download and analyse over-the-air-upgrade firmware files for Zigbee devices.  
+The firmware files are downloaded into the current directory from the
+[zigbee-OTA](https://github.com/Koenkk/zigbee-OTA) repository,
+using the files names as expected by the
+[deCONZ OTAU plugin](https://github.com/dresden-elektronik/deconz-ota-plugin).
 
 Each command-line tool takes a `-h` or `--help` argument to provide a brief overview of its functionality and command-line arguments.
-
-See the [`deconz` Command-Line Tool](https://github.com/ebaauw/homebridge-deconz/wiki/deconz-Command-Line-Utility) in the Wiki for more info.
-
 
 ### Prerequisites
 You need a deCONZ gateway to connect the Homebridge deCONZ Tools to your ZigBee devices (lights, plugs, sensors, switches, ...).

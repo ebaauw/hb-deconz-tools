@@ -13,7 +13,8 @@
   ],
   "main": "index.js",
   "bin": {
-    "deconz": "cli/deconz.js"
+    "deconz": "cli/deconz.js",
+    "otau": "cli/otau.js"
   },
   "engines": {
     "node": "^18.16.1"
