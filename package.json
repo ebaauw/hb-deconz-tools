@@ -17,12 +17,12 @@
     "otau": "cli/otau.js"
   },
   "engines": {
-    "node": "18.17.0||^18||^16"
+    "node": "18.17.1||^18||^16"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.0.11",
+    "hb-lib-tools": "~1.0.12",
     "ws": "^8.13.0",
-    "xml2js": "~0.6.0"
+    "xml2js": "~0.6.2"
   },
   "scripts": {
     "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
