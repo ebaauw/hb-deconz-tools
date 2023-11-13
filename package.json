@@ -20,7 +20,7 @@
     "node": "20.9.0||^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.1.4",
+    "hb-lib-tools": "~1.2.0",
     "ws": "^8.14.2",
     "xml2js": "~0.6.2"
   },
