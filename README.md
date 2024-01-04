@@ -8,7 +8,7 @@
 </span>
 
 ## Homebridge deCONZ Tools
-Copyright© 2022-2023 Erik Baauw. All rights reserved.
+Copyright © 2022-2024 Erik Baauw. All rights reserved.
 
 This repository provides a standalone installation of the command-line utilities from [Homebridge deCONZ](https://github.com/ebaauw/homebridge-deconz):
 

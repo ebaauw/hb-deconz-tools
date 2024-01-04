@@ -1,7 +1,7 @@
 // hb-deconz-tools/index.js
 //
 // Homebridge deCONZ Tools.
-// Copyright © 2022-2023 Erik Baauw. All rights reserved.
+// Copyright © 2022-2024 Erik Baauw. All rights reserved.
 
 'use strict'
 
