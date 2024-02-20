@@ -17,10 +17,10 @@
     "otau": "cli/otau.js"
   },
   "engines": {
-    "node": "20.10.0||^20||^18"
+    "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.2.1",
+    "hb-lib-tools": "~1.2.3",
     "ws": "^8.16.0",
     "xml2js": "~0.6.2"
   },
