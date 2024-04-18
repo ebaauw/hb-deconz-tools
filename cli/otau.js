@@ -5,9 +5,6 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2023-2024 Erik Baauw. All rights reserved.
 
-'use strict'
+import { OtauTool } from '../index.js'
 
-const { OtauTool } = require('../index')
-const pkgJson = require('../package.json')
-
-new OtauTool(pkgJson).main()
+new OtauTool(import.meta.dirname).main()

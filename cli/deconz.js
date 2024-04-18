@@ -5,9 +5,6 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
-'use strict'
+import { DeconzTool } from '../index.js'
 
-const { DeconzTool } = require('../index')
-const pkgJson = require('../package.json')
-
-new DeconzTool(pkgJson).main()
+new DeconzTool(import.meta.dirname).main()
