@@ -11,6 +11,7 @@
     "dresden-elektronik",
     "dresdenelektronik"
   ],
+  "type": "module",
   "main": "index.js",
   "bin": {
     "deconz": "cli/deconz.js",
@@ -20,7 +21,7 @@
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~1.2.4",
+    "hb-lib-tools": "~2.0.0-0",
     "ws": "^8.16.0",
     "xml2js": "~0.6.2"
   },
