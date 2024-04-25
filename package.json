@@ -12,9 +12,7 @@
     "dresdenelektronik"
   ],
   "type": "module",
-  "main": "index.js",
   "exports": {
-    ".": "./index.js",
     "./*": "./lib/*.js"
   },
   "bin": {
