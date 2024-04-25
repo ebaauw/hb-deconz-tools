@@ -13,6 +13,10 @@
   ],
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./lib/*.js"
+  },
   "bin": {
     "deconz": "cli/deconz.js",
     "otau": "cli/otau.js"
@@ -21,7 +25,7 @@
     "node": "^20||^18"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.0.0-0",
+    "hb-lib-tools": "~2.0.0-1",
     "ws": "^8.16.0",
     "xml2js": "~0.6.2"
   },

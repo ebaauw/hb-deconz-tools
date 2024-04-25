@@ -5,6 +5,6 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2023-2024 Erik Baauw. All rights reserved.
 
-import { OtauTool } from '../index.js'
+import { OtauTool } from 'hb-deconz-tools/OtauTool'
 
 new OtauTool(import.meta.dirname).main()

@@ -5,6 +5,6 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
-import { DeconzTool } from '../index.js'
+import { DeconzTool } from 'hb-deconz-tools/DeconzTool'
 
 new DeconzTool(import.meta.dirname).main()
