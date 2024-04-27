@@ -5,6 +5,11 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2023-2024 Erik Baauw. All rights reserved.
 
+import { createRequire } from 'node:module'
+
 import { OtauTool } from 'hb-deconz-tools/OtauTool'
 
-new OtauTool(import.meta.dirname).main()
+const require = createRequire(import.meta.url)
+const packageJson = require('../package.json')
+
+new OtauTool(packageJson).main()

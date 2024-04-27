@@ -5,6 +5,11 @@
 // Homebridge deCONZ Tools.
 // Copyright © 2018-2024 Erik Baauw. All rights reserved.
 
+import { createRequire } from 'node:module'
+
 import { DeconzTool } from 'hb-deconz-tools/DeconzTool'
 
-new DeconzTool(import.meta.dirname).main()
+const require = createRequire(import.meta.url)
+const packageJson = require('../package.json')
+
+new DeconzTool(packageJson).main()
