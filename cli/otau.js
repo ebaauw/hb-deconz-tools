@@ -3,7 +3,7 @@
 // hb-deconz-tools/bin/otau.js
 //
 // Homebridge deCONZ Tools.
-// Copyright © 2023-2024 Erik Baauw. All rights reserved.
+// Copyright © 2023-2025 Erik Baauw. All rights reserved.
 
 import { createRequire } from 'node:module'
 
