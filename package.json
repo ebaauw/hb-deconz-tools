@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "hb-lib-tools": "~2.2.2",
-    "ws": "^8.18.0",
+    "ws": "^8.18.1",
     "xml2js": "~0.6.2"
   },
   "scripts": {
