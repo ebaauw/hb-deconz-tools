@@ -2,7 +2,7 @@
   "name": "hb-deconz-tools",
   "description": "Homebridge deCONZ Tools",
   "license": "Apache-2.0",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "keywords": [
     "deconz",
     "phoscon",
