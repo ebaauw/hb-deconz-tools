@@ -28,7 +28,7 @@
     "node": "^24||^22||^20"
   },
   "dependencies": {
-    "hb-lib-tools": "~2.2.17",
+    "hb-lib-tools": "~2.2.18-0",
     "ws": "^8.19.0",
     "xml2js": "~0.6.2"
   },
