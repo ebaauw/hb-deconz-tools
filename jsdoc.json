@@ -9,7 +9,7 @@
       "index.js",
       "lib",
       "cli",
-      "node_modules/hb-lib-tools/lib/HttpClient.js"
+      "node_modules/hb-lib-tools/dist/HttpClient.js"
     ]
   },
   "opts": {
